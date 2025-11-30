@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-zr-dark relative overflow-hidden pt-20 pb-10">
       {/* Large Watermark */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden pointer-events-none select-none">
-        <h1 className="text-[20vw] font-display font-bold text-white/[0.03] leading-none text-center transform translate-y-[20%]">
+        <h1 className="text-[18vw] font-display font-bold text-white/[0.03] leading-none text-center transform translate-y-[10%]">
           ZR PACKAGING
         </h1>
       </div>

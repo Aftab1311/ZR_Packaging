@@ -15,7 +15,7 @@ export const Contact: React.FC = () => {
 
   return (
     <section id="contact" className="py-24 bg-zr-darker text-white">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left: Info */}
           <div>

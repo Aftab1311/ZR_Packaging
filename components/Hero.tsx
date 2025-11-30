@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-grid-pattern bg-[length:40px_40px] opacity-[0.05]" />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-6 lg:px-20 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Text Content */}
         <div className="order-2 lg:order-1">
           <motion.div
@@ -69,7 +69,7 @@ export const Hero: React.FC = () => {
                 </a>
               </Magnetic>
               
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 pb-10">
                  <div className="flex -space-x-3">
                    {[1,2,3].map(i => (
                      <div key={i} className="w-10 h-10 rounded-full border-2 border-zr-dark bg-gray-800 overflow-hidden">
@@ -77,7 +77,7 @@ export const Hero: React.FC = () => {
                      </div>
                    ))}
                  </div>
-                 <div className="text-sm text-white/80">
+                 <div className="text-sm text-white/80 ">
                    <span className="font-bold text-white block">200+</span>
                    Global Partners
                  </div>

@@ -48,7 +48,7 @@ export const Features: React.FC = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 lg:px-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {valueProps.map((prop, index) => (
             <div key={prop.id} className="relative group">
