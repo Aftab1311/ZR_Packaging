@@ -34,7 +34,7 @@ const products: ProductItem[] = [
   },
   {
     id: 4,
-    title: 'Corrugated Shipping',
+    title: 'Corrugated Blister Packs',
     category: 'Industrial',
     description: 'Double-walled strength for global logistics.',
     image: blister,

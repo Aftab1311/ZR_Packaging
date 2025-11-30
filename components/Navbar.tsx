@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
@@ -6,6 +7,7 @@ import { NavLink } from '../types';
 const links: NavLink[] = [
   { name: 'Solutions', href: '#solutions' },
   { name: 'Industries', href: '#industries' },
+  { name: 'Gallery', href: '#gallery' },
   { name: 'Sustainability', href: '#sustainability' },
   { name: 'Contact', href: '#contact' },
 ];

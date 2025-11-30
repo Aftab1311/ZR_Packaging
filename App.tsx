@@ -1,8 +1,10 @@
+
 import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { BentoGrid } from './components/BentoGrid';
 import { Features } from './components/Features';
+import { Gallery } from './components/Gallery';
 import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
@@ -15,6 +17,7 @@ function App() {
         <Hero />
         <BentoGrid />
         <Features />
+        <Gallery />
         <Testimonials />
         <Contact />
       </main>
