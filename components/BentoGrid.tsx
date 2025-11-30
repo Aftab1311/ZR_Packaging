@@ -2,22 +2,26 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { ProductItem } from '../types';
+import blister from "../components/assets/blisters.jpg";
+import trays from "../components/assets/trays.jpg";
+import pvc from "../components/assets/pvc.jpg";
+import black from "../components/assets/black.jpg";
 
 const products: ProductItem[] = [
   {
     id: 1,
-    title: 'Rigid Luxury Boxes',
+    title: 'Rigid Boxes',
     category: 'Premium',
     description: 'High-density chipboard wrapped in premium textured papers.',
-    image: 'https://picsum.photos/600/400?random=10',
+    image: trays,
     colSpan: 2
   },
   {
     id: 2,
-    title: 'Eco-Mailers',
+    title: 'Transparent PVC Trays',
     category: 'Sustainable',
     description: '100% Recycled content, compostable ink.',
-    image: 'https://picsum.photos/600/600?random=11',
+    image: pvc,
     colSpan: 1
   },
   {
@@ -25,7 +29,7 @@ const products: ProductItem[] = [
     title: 'Custom Inserts',
     category: 'Engineering',
     description: 'Molded pulp and die-cut foam for perfect fit.',
-    image: 'https://picsum.photos/600/600?random=12',
+    image: black,
     colSpan: 1
   },
   {
@@ -33,7 +37,7 @@ const products: ProductItem[] = [
     title: 'Corrugated Shipping',
     category: 'Industrial',
     description: 'Double-walled strength for global logistics.',
-    image: 'https://picsum.photos/600/400?random=13',
+    image: blister,
     colSpan: 2
   },
 ];
